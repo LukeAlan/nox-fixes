@@ -3,9 +3,11 @@
     background: var(--nox-level3)!important;
     box-shadow: 0 5px 10px 0px var(--nox-black2);
 }
-.modal-3v8ziU .content-2KoCOZ,
-.modal-3v8ziU .footer-30ewN8{
+.modal-3v8ziU .content-2KoCOZ{
     background: var(--nox-level1)!important;
+}
+.modal-3v8ziU .footer-30ewN8{
+    background: var(--nox-level2)!important;
 }
 .modal-3v8ziU .content-2KoCOZ{
     border-radius: 0;
