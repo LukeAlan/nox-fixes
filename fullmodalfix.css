@@ -98,4 +98,22 @@ svg[class="tierLock-3CSxSX da-tierLock"] path{
 svg[name="Gift"]{
     margin-left: 0;
 }
-/* End Full Modal Fix */
+/* Close Button */
+.modal-3v8ziU .header-2nhbou .close-hhyjWJ div svg{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+    background-size: 100%;
+    padding: 0!important;
+    margin: none!important;
+    width: auto;
+}
+.modal-3v8ziU .header-2nhbou .close-hhyjWJ div svg path{
+    display: none;
+}
+.modal-3v8ziU .header-2nhbou .close-hhyjWJ{
+    padding: 4px!important;
+    min-height: unset!important;
+}
+.close-hhyjWJ{
+    box-shadow: none!important;
+    border-radius: 50%!important;
+}
