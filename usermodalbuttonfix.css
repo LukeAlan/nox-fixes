@@ -1,0 +1,193 @@
+/* Button Fix Begin */
+/* Brings back original functionality of the missing SVG's for muting your mic/deafening vice versa. Remove Java's Fix before applying. */
+/* MUTE AND DEAFEN */
+/* English US/UK */
+.button-s03oPN[aria-label="Mute"]::after, .button-s03oPN[aria-label="Deafen"]::after,
+/* Spanish */
+.button-s03oPN[aria-label="Silenciar"]::after, .button-s03oPN[aria-label="Ensordecer"]::after,
+/* French */
+.button-s03oPN[aria-label="Rendre muet"]::after, .button-s03oPN[aria-label="Mettre en sourdine"]::after,
+/* German */
+.button-s03oPN[aria-label="Lautsprecher deaktivieren"]::after, .button-s03oPN[aria-label="Benutzereinstellungen"]::after,
+/* Danish */
+.button-s03oPN[aria-label="Gør stum"]::after, .button-s03oPN[aria-label="Gør døv"]::after,
+/* Croatian */
+.button-s03oPN[aria-label="Isključi mikrofon"]::after, .button-s03oPN[aria-label="Isključi zvuk"]::after,
+/* Italian */ 
+.button-s03oPN[aria-label="Silenzia"]::after, .button-s03oPN[aria-label="Silenzia l'audio"]::after,
+/* Lithuanian */
+.button-s03oPN[aria-label="Nutildyti"]::after, .button-s03oPN[aria-label="Išjungti garsą"]::after,
+/* Hungarian */
+.button-s03oPN[aria-label="Némítás"]::after, .button-s03oPN[aria-label="Süketítés"]::after,
+/* Dutch */
+.button-s03oPN[aria-label="Dempen"]::after, .button-s03oPN[aria-label="Hoorbaar maken"]::after,
+/* Norwegian */
+.button-s03oPN[aria-label="Demp"]::after, .button-s03oPN[aria-label="Slå av lyd"]::after,
+/* Polish */
+.button-s03oPN[aria-label="Wycisz"]::after, .button-s03oPN[aria-label="Wyłącz dźwięk"]::after,
+/* Portugese */
+.button-s03oPN[aria-label="Desativar microfone"]::after, .button-s03oPN[aria-label="Desativar áudio"]::after,
+/* Romanian */
+.button-s03oPN[aria-label="Dezactivează microfonul"]::after, .button-s03oPN[aria-label="Dezactivează sunetul"]::after,
+/* Finnish */
+.button-s03oPN[aria-label="Mykistä"]::after, .button-s03oPN[aria-label="Hiljennä"]::after,
+/* Swedish */
+.button-s03oPN[aria-label="Mikrofon av"]::after, .button-s03oPN[aria-label="Ljud av"]::after,
+/* Vietnamese */
+.button-s03oPN[aria-label="Tắt âm"]::after, .button-s03oPN[aria-label="Tắt tiếng"]::after,
+/* Turkish */
+.button-s03oPN[aria-label="Sustur"]::after, .button-s03oPN[aria-label="Sağırlaştır"]::after,
+/* Czech */
+.button-s03oPN[aria-label="Ztlumit mikrofon"]::after, .button-s03oPN[aria-label="Ztlumit zvuk"]::after,
+/* Greek */
+.button-s03oPN[aria-label="Σίγαση"]::after, .button-s03oPN[aria-label="Κώφωση"]::after,
+/* Bulgarian */
+.button-s03oPN[aria-label="Изкл. на микрофона"]::after, .button-s03oPN[aria-label="Заглушаване"]::after,
+/* Russian */
+.button-s03oPN[aria-label="Откл. микрофон"]::after, .button-s03oPN[aria-label="Откл. звук"]::after,
+/* Ukranian */
+.button-s03oPN[aria-label="Вимкнути мікрофон"]::after, .button-s03oPN[aria-label="Вимкнути звук"]::after,
+/* Thai */
+.button-s03oPN[aria-label="ปิดเสียง"]::after, .button-s03oPN[aria-label="ปิดการได้ยิน"]::after,
+/* Chinese, China */
+.button-s03oPN[aria-label="麦克风静音"]::after, .button-s03oPN[aria-label="耳机静音"]::after,
+/* Japanese */
+.button-s03oPN[aria-label="ミュート"]::after, .button-s03oPN[aria-label="スピーカーミュート"]::after,
+/* Chinese, Taiwan */
+.button-s03oPN[aria-label="靜音"]::after, .button-s03oPN[aria-label="拒聽"]::after,
+/* Korean */
+.button-s03oPN[aria-label="마이크 끄기"]::after, .button-s03oPN[aria-label="소리 끄기"]::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 18.5px;
+    top: 0;
+    left: 0;
+    transform: translate(6px, 14.5px) rotate(45deg) translate(10px, -2px) scale(0, 1);
+    background: linear-gradient(to top, var(--nox-white) 0%, var(--nox-white) 50%, var(--nox-level3) 51%, var(--nox-level3) 100%);
+    animation: strike-out 300ms cubic-bezier(0, 0, 0, 1);
+}
+/* UNMUTE AND UNDEAFEN  */
+/* English US/UK */
+.button-s03oPN[aria-label="Unmute"]::after, .button-s03oPN[aria-label="Undeafen"]::after,
+/* Spanish */  
+.button-s03oPN[aria-label="Desactivar silencio"]::after, .button-s03oPN[aria-label="Desactivar ensordecimiento"]::after,
+/* French */
+.button-s03oPN[aria-label="Rétablir la voix"]::after, .button-s03oPN[aria-label="Rétablir le son"]::after,
+/* German */
+.button-s03oPN[aria-label="Stummschaltung aufheben"]::after, .button-s03oPN[aria-label="Lautsprecher aktivieren"]::after,
+/* Danish */
+.button-s03oPN[aria-label="Ophæv stumhed"]::after, .button-s03oPN[aria-label="Ophæv døvhed"]::after,
+/* Croatian */
+.button-s03oPN[aria-label="Uključi mikrofon"]::after, .button-s03oPN[aria-label="Uključi zvuk"]::after,
+/* Italian */ 
+.button-s03oPN[aria-label="Togli il silenziamento al microfono"]::after, .button-s03oPN[aria-label="Riattiva audio"]::after,
+/* Lithuanian */
+.button-s03oPN[aria-label="Įjungti balsą"]::after, .button-s03oPN[aria-label="Įjungti garsą"]::after,
+/* Hungarian */
+.button-s03oPN[aria-label="Némítás ki"]::after, .button-s03oPN[aria-label="Süketítés ki"]::after,
+/* Dutch */
+.button-s03oPN[aria-label="Dempen ongedaan maken"]::after, .button-s03oPN[aria-label="Onhoorbaar maken"]::after,
+/* Norwegian */
+.button-s03oPN[aria-label="Opphev demping"]::after, .button-s03oPN[aria-label="Slå på lyd"]::after,
+/* Polish */
+.button-s03oPN[aria-label="Wyłącz wyciszenie"]::after, .button-s03oPN[aria-label="Włącz dźwięk"]::after,
+/* Portugese */
+.button-s03oPN[aria-label="Reativar microfone"]::after, .button-s03oPN[aria-label="Reativar áudio"]::after,
+/* Romanian */
+.button-s03oPN[aria-label="Reactivează microfonul"]::after, .button-s03oPN[aria-label="Reactivează sunetul"]::after,
+/* Finnish */
+.button-s03oPN[aria-label="Poista mykistys"]::after, .button-s03oPN[aria-label="Poista hiljennys"]::after,
+/* Swedish */
+.button-s03oPN[aria-label="Mikrofon på"]::after, .button-s03oPN[aria-label="Ljud på"]::after,
+/* Vietnamese */
+.button-s03oPN[aria-label="Bỏ mute"]::after, .button-s03oPN[aria-label="Bỏ tắt tiếng"]::after,
+/* Turkish */
+.button-s03oPN[aria-label="Susturmayı Kaldır"]::after, .button-s03oPN[aria-label="Sağırlığı Kaldır"]::after,
+/* Czech */
+.button-s03oPN[aria-label="Zrušit ztlumení mikrofonu"]::after, .button-s03oPN[aria-label="Zrušit ztlumení zvuk"]::after,
+/* Greek */
+.button-s03oPN[aria-label="Κατάργηση σίγασης"]::after, .button-s03oPN[aria-label="Κατάργηση κώφωσης"]::after,
+/* Bulgarian */
+.button-s03oPN[aria-label="Вкл. на микрофона"]::after, .button-s03oPN[aria-label="Премахване на заглушаване"]::after,
+/* Russian */
+.button-s03oPN[aria-label="Вкл. микрофон"]::after, .button-s03oPN[aria-label="Вкл. звук"]::after,
+/* Ukranian */
+.button-s03oPN[aria-label="Увімкнути мікрофон"]::after, .button-s03oPN[aria-label="Увімкнути звук"]::after,
+/* Thai */
+.button-s03oPN[aria-label="เปิดเสียงไมค์"]::after, .button-s03oPN[aria-label="เปิดการได้ยิน"]::after,
+/* Chinese, China */
+.button-s03oPN[aria-label="取消麦克风静音"]::after, .button-s03oPN[aria-label="取消耳机静音"]::after,
+/* Japanese */
+.button-s03oPN[aria-label="ミュート解除"]::after, .button-s03oPN[aria-label="スピーカーミュート解除"]::after,
+/* Chinese, Taiwan */
+.button-s03oPN[aria-label="解除靜音"]::after, .button-s03oPN[aria-label="解除拒聽"]::after,
+/* Korean */
+.button-s03oPN[aria-label="음소거 해제"]::after, .button-s03oPN[aria-label="소리 켜기"]::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 18px;
+    top: 0;
+    left: 0;
+    transform: translate(6px, 14.5px) rotate(45deg) translate(0, -2px) scale(1, 1);
+    background: linear-gradient(to top, var(--nox-white) 0%, var(--nox-white) 50%, var(--nox-level3) 51%, var(--nox-level3) 100%);
+    animation: strike-in 300ms cubic-bezier(0, 0, 0, 1); 
+}
+.container-2Thooq .horizontal-1ae9ci div svg path {
+	display: none;
+}
+.container-2Thooq .horizontal-1ae9ci div svg {
+    background-repeat: no-repeat;
+	display: block;
+}
+/*SVG Replacements*/
+svg.buttonIcon-3yYVOH[name="Gear"]{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPiAgICA8cGF0aCBkPSJNMTkuNDMgMTIuOThjLjA0LS4zMi4wNy0uNjQuMDctLjk4cy0uMDMtLjY2LS4wNy0uOThsMi4xMS0xLjY1Yy4xOS0uMTUuMjQtLjQyLjEyLS42NGwtMi0zLjQ2Yy0uMTItLjIyLS4zOS0uMy0uNjEtLjIybC0yLjQ5IDFjLS41Mi0uNC0xLjA4LS43My0xLjY5LS45OGwtLjM4LTIuNjVDMTQuNDYgMi4xOCAxNC4yNSAyIDE0IDJoLTRjLS4yNSAwLS40Ni4xOC0uNDkuNDJsLS4zOCAyLjY1Yy0uNjEuMjUtMS4xNy41OS0xLjY5Ljk4bC0yLjQ5LTFjLS4yMy0uMDktLjQ5IDAtLjYxLjIybC0yIDMuNDZjLS4xMy4yMi0uMDcuNDkuMTIuNjRsMi4xMSAxLjY1Yy0uMDQuMzItLjA3LjY1LS4wNy45OHMuMDMuNjYuMDcuOThsLTIuMTEgMS42NWMtLjE5LjE1LS4yNC40Mi0uMTIuNjRsMiAzLjQ2Yy4xMi4yMi4zOS4zLjYxLjIybDIuNDktMWMuNTIuNCAxLjA4LjczIDEuNjkuOThsLjM4IDIuNjVjLjAzLjI0LjI0LjQyLjQ5LjQyaDRjLjI1IDAgLjQ2LS4xOC40OS0uNDJsLjM4LTIuNjVjLjYxLS4yNSAxLjE3LS41OSAxLjY5LS45OGwyLjQ5IDFjLjIzLjA5LjQ5IDAgLjYxLS4yMmwyLTMuNDZjLjEyLS4yMi4wNy0uNDktLjEyLS42NGwtMi4xMS0xLjY1ek0xMiAxNS41Yy0xLjkzIDAtMy41LTEuNTctMy41LTMuNXMxLjU3LTMuNSAzLjUtMy41IDMuNSAxLjU3IDMuNSAzLjUtMS41NyAzLjUtMy41IDMuNXoiLz48L3N2Zz4=) !important;
+}
+svg.buttonIcon-3yYVOH[name="Nova_Headset"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTMgOXY2aDRsNSA1VjRMNyA5SDN6bTEzLjUgM2MwLTEuNzctMS4wMi0zLjI5LTIuNS00LjAzdjguMDVjMS40OC0uNzMgMi41LTIuMjUgMi41LTQuMDJ6TTE0IDMuMjN2Mi4wNmMyLjg5Ljg2IDUgMy41NCA1IDYuNzFzLTIuMTEgNS44NS01IDYuNzF2Mi4wNmM0LjAxLS45MSA3LTQuNDkgNy04Ljc3cy0yLjk5LTcuODYtNy04Ljc3eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+) !important;
+}
+svg.buttonIcon-3yYVOH[name="Nova_Microphone"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDE0YzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zTDE1IDVjMC0xLjY2LTEuMzQtMy0zLTNTOSAzLjM0IDkgNXY2YzAgMS42NiAxLjM0IDMgMyAzem01LjMtM2MwIDMtMi41NCA1LjEtNS4zIDUuMVM2LjcgMTQgNi43IDExSDVjMCAzLjQxIDIuNzIgNi4yMyA2IDYuNzJWMjFoMnYtMy4yOGMzLjI4LS40OCA2LTMuMyA2LTYuNzJoLTEuN3oiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==) !important;
+}
+svg.buttonIcon-3yYVOH[name="Nova_HeadsetDeafen"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTMgOXY2aDRsNSA1VjRMNyA5SDN6bTEzLjUgM2MwLTEuNzctMS4wMi0zLjI5LTIuNS00LjAzdjguMDVjMS40OC0uNzMgMi41LTIuMjUgMi41LTQuMDJ6TTE0IDMuMjN2Mi4wNmMyLjg5Ljg2IDUgMy41NCA1IDYuNzFzLTIuMTEgNS44NS01IDYuNzF2Mi4wNmM0LjAxLS45MSA3LTQuNDkgNy04Ljc3cy0yLjk5LTcuODYtNy04Ljc3eiIvPiAgICA8cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+) !important;
+}
+svg.buttonIcon-3yYVOH[name="Nova_MicrophoneMute"] {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyIDE0YzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zTDE1IDVjMC0xLjY2LTEuMzQtMy0zLTNTOSAzLjM0IDkgNXY2YzAgMS42NiAxLjM0IDMgMyAzem01LjMtM2MwIDMtMi41NCA1LjEtNS4zIDUuMVM2LjcgMTQgNi43IDExSDVjMCAzLjQxIDIuNzIgNi4yMyA2IDYuNzJWMjFoMnYtMy4yOGMzLjI4LS40OCA2LTMuMyA2LTYuNzJoLTEuN3oiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==) !important;
+}
+svg.buttonIcon-3yYVOH[name="Gear"],
+svg.buttonIcon-3yYVOH[name="Nova_Headset"],
+svg.buttonIcon-3yYVOH[name="Nova_Microphone"],
+svg.buttonIcon-3yYVOH[name="Nova_HeadsetDeafen"],
+svg.buttonIcon-3yYVOH[name="Nova_MicrophoneMute"] {
+    background-position: 50%;
+    background-size: 100%;
+}
+/*Button Radial Pulse*/
+.channels-Ie2l6A .button-38aScr:hover{
+    background: transparent!important;
+}
+.channels-Ie2l6A .button-38aScr::before{
+    content: "";
+    background: var(--nox-white);
+    opacity: 0;
+    transform: scale(1.2);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    transition: 300ms ease;
+}
+.channels-Ie2l6A .button-38aScr:active::before{
+    opacity: 0.1;
+    animation: opacity 100ms ease, scale 100ms cubic-bezier(0.4, 0, 0, 1);
+}
+.container-2Thooq .horizontal-1ae9ci div{
+    opacity: .75;
+}
+/* Button Fix End */
