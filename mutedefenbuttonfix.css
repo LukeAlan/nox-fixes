@@ -76,7 +76,7 @@
 /* French */
 .button-s03oPN[aria-label="Rétablir la voix"]::after, .button-s03oPN[aria-label="Rétablir le son"]::after,
 /* German */
-.button-s03oPN[aria-label="Stummschaltung aufheben"]::after, .button-s03oPN[aria-label="Lautsprecher aktivieren"]::after,
+.button-s03oPN[aria-label="Stummschalten"]::after, .button-s03oPN[aria-label="Lautsprecher aktivieren"]::after,
 /* Danish */
 .button-s03oPN[aria-label="Ophæv stumhed"]::after, .button-s03oPN[aria-label="Ophæv døvhed"]::after,
 /* Croatian */
