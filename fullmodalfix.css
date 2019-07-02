@@ -1,0 +1,100 @@
+/* Full Modal Fix */
+.modal-3v8ziU .header-2nhbou{
+    background: var(--nox-level3)!important;
+    box-shadow: 0 5px 10px 0px var(--nox-black2);
+}
+.modal-3v8ziU .content-2KoCOZ,
+.modal-3v8ziU .footer-30ewN8{
+    background: var(--nox-level1)!important;
+}
+.modal-3v8ziU .content-2KoCOZ{
+    border-radius: 0;
+}
+.content-2KoCOZ .inner-2Z5QZX{
+    padding-top: 10px;
+}
+/* oh yeah this might override another tempfix */
+.css-2yldzf-control,
+.css-15ejc46-control,
+.css-1yegjoj-control{
+    border: none !important;
+    background: #292929 !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), 0 1px 0 rgba(255, 255, 255, 0.03) inset !important;
+}
+.css-181m2lf-menu{
+    border: none!important;
+    background: #292929!important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)!important;
+}
+.css-12o7ek3-option{
+    background: var(--nox-black3)!important;
+}
+.css-1aymab5-option:active{
+    background: var(--nox-black1)!important;
+}
+.css-1gnr91b-option{
+    background: var(--nox-black2)!important;
+}
+.css-1ye7vu0::-webkit-scrollbar-thumb{
+    background: var(--nox-black1)!important;
+    opacity: 0.6;
+}
+/* Nitro Boost */
+.theme-dark .barBackground-2EEiLw{
+    background: var(--nox-level3)!important;
+}
+.barForeground-3KglC8{
+    background: var(--nox-accent)!important;
+}
+.theme-dark .tierMarkerBackground-3q29am{
+    background-color: var(--nox-level2)!important;
+}
+.tierMarkerInProgress-24LMzJ:not[style="transform: scale(1); background-image: linear-gradient(to right, rgb(32, 34, 37), rgb(32, 34, 37));"]{
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.tierMarkerAccomplished-2MiXeg{
+    background: var(--nox-accent)!important;
+}
+.tierUnlocked-25K6Kv{
+    color: var(--nox-accent)!important;
+}
+.selectedTier-1JkO7i .tierMarker-5HkGJ_:not(.tierMarkerAccomplished-2MiXeg){
+    background: var(--nox-level2)!important;
+    filter: brightness(1.95);
+}
+.tierMarkerGroup-xg6A1d:not(.selectedTier-1JkO7i) .tierMarkerInProgress-24LMzJ.tierMarker-5HkGJ_{
+    background: var(--nox-level2)!important;
+    box-shadow: none!important;
+    background-image: none!important;
+}
+.tierHeaderLocked-1s2JJz{
+    background: var(--nox-level3)!important;
+}
+.tierNoneContainer-3hhK3h,
+.tierBody-16Chc9{
+    background: var(--nox-level2)!important;
+}
+.theme-dark .boostCount-UFqabz{
+    background: var(--nox-level1);
+}
+svg[class="tierLock-3CSxSX da-tierLock"]{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE4IDhoLTFWNmMwLTIuNzYtMi4yNC01LTUtNVM3IDMuMjQgNyA2djJINmMtMS4xIDAtMiAuOS0yIDJ2MTBjMCAxLjEuOSAyIDIgMmgxMmMxLjEgMCAyLS45IDItMlYxMGMwLTEuMS0uOS0yLTItMnptLTYgOWMtMS4xIDAtMi0uOS0yLTJzLjktMiAyLTIgMiAuOSAyIDItLjkgMi0yIDJ6bTMuMS05SDguOVY2YzAtMS43MSAxLjM5LTMuMSAzLjEtMy4xIDEuNzEgMCAzLjEgMS4zOSAzLjEgMy4xdjJ6IiBmaWxsPSIjMzAzMDMwIi8+PC9zdmc+");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+svg[class="tierLock-3CSxSX da-tierLock"] path{
+    display: none;
+}
+.carouselRightGradientEdge-2Z3H8D{
+    background-image: linear-gradient(270deg,var(--nox-level1),var(--nox-black0))!important;
+}
+.carouselLeftGradientEdge-3P4spl{
+    background-image: linear-gradient(90deg,var(--nox-level1),var(--nox-black0))!important;
+}
+.button-38aScr.closeIcon-3_iQ6l:hover{
+    background: none!important;
+}
+/*I have a feeling this may be problematic, please let me know if it is.*/
+svg[name="Gift"]{
+    margin-left: 0;
+}
